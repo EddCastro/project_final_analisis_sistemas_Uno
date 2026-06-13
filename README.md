@@ -134,3 +134,48 @@ php artisan test
 ## Entrega esperada
 
 El estudiante debe trabajar sobre su propio fork del repositorio y entregar en Canvas el enlace al repositorio forkeado, junto con una breve descripción del módulo implementado y los commits principales que evidencian su avance.
+
+---
+
+## Módulo 13 - Expediente médico
+
+### Descripción del módulo
+
+Se implementó una vista base de expediente médico asociada a un paciente. La pantalla permite seleccionar un paciente y consultar información general, antecedentes, alergias y consultas recientes.
+
+### Ruta de revisión
+
+```text
+/expediente-medico
+```
+
+### Evidencia por sprints
+
+- **Sprint 1:** estructura base del módulo, ruta y enlace de navegación.
+- **Sprint 2:** vista funcional con selector de paciente y secciones clínicas.
+- **Sprint 3:** documentación y diagramas UML del módulo.
+
+### Diagramas UML
+
+Los diagramas del módulo se encuentran en:
+
+```text
+docs/uml-expediente-medico.md
+```
+
+Incluyen:
+
+- Diagrama de caso de uso.
+- Diagrama de clases.
+- Diagrama de secuencia.
+
+### Verificación aplicada
+
+Se ejecutó:
+
+```bash
+npm run build
+```
+
+La compilación finalizó correctamente sin errores.
+
