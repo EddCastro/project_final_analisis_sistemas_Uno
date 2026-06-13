@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomePage from '@/pages/HomePage.vue';
 import LoginPage from '@/modules/auth/pages/LoginPage.vue';
+import ExpedienteMedicoPage from '@/modules/expediente-medico/pages/ExpedienteMedicoPage.vue';
 import { authGuard } from '@/router/guards';
 
 const router = createRouter({
@@ -10,6 +11,11 @@ const router = createRouter({
             path: '/',
             name: 'home',
             component: HomePage,
+        },
+        {
+            path: '/expediente-medico',
+            name: 'expediente-medico',
+            component: ExpedienteMedicoPage,
         },
         {
             path: '/login',
